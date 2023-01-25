@@ -31,6 +31,9 @@ For convenient training, evaluation and visualization we will use Torchvision pa
 
 - Save the Model.
 
+# **Fine Tuning**
+
+I fine-tune a model trained on COCO dataset. For this purpose I've to replace model classifier with a new one adapted to our task. model will exploit [Resnet50](https://arxiv.org/pdf/1512.03385v1.pdf) as backbone. We incorporate our model into [PyTorch lightning](https://www.pytorchlightning.ai/) module. This way we can easily train and validate our model. 
 
 # **Dataset Description**
 
