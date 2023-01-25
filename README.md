@@ -1,4 +1,4 @@
-# RSNA-Pneumonia-Detection-Challenge-
+# RSNA-Pneumonia-Detection-Challenge
 Kaggle Competition
 
 Building an algorithm to detect a visual signal for pneumonia in medical images. 
@@ -34,8 +34,16 @@ For convenient training, evaluation and visualization we will use Torchvision pa
 
 # **Dataset Description**
 
-The training archive contains 25,000 images of dogs and cats. Train your algorithm on these files and predict the labels for test1.zip (1 = dog, 0 = cat).
+The training archive contains:
 
-You can download it for free from <a href="https://www.kaggle.com/c/dogs-vs-cats/data"> here</a>
+* stage_2_train_images.zip and stage_2_test_images.zip - images for the current stage - All provided images are in DICOM format.
+
+* stage_2_train.csv - the training set. Contains patientIds and bounding box / target information.
+
+* stage_2_sample_submission.csv - a sample submission file in the correct format. Contains patientIds for the test set.
+
+* stage_2_detailed_class_info.csv - provides detailed information about the type of positive or negative class for each image.
+
+You can download it for free from <a href="https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge/data"> here</a>
 
 Don't hesitate to ask me and I will do my best to answer.
